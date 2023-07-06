@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e0d3fda17.js" crossorigin="anonymous"></script>
+    <title>FreshFruits - Livraison de fruits à domicile</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo.jpg" width="80px" class="logo" alt="FreshFruits">
+            <ul class="navbar_link">
+                <li><a href="#" style="color:#2ca618">Accueil</a></li>
+                <li><a href="#">Nos Produits</a></li>
+                <li><a href="#">Nos Partenaires</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><img src="img/panier.png" width="30px" class="panier" alt="panier"></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="shop">
+        <h1>Mon Panier</h1>
+        <div class="cart">
+            <div class="imgBox">
+                <img src="img/ananas.jpg" height="80px">
+                <button id="like" class="btnlikee"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="fruits">
+                <h2 class="title">Ananas</h2>
+                <h3 class="PUnit">Prix unitaire : 600</h3>
+            </div>
+            <div class="counter">
+                <div class="btnminus">-</div>
+                <input type="text" name="qty" id="1" value="5">
+                <div class="btnplus">+</div>
+            </div>
+            <div class="prix">3000</div>
+            <div class="del">x</div>
+        </div>
+        <div class="cart">
+            <div class="imgBox">
+                <img src="img/mangue.jpeg" width="80px" height="80px">
+                <button id="like" class="btnlikee"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="fruits">
+                <h2 class="title">Mangue</h2>
+                <h3 class="PUnit">Prix unitaire : 800</h3>
+            </div>
+            <div class="counter">
+                <div class="btnminus">-</div>
+                <input type="text" name="qty" id="2" value="2">
+                <div class="btnplus">+</div>
+            </div>
+            <div class="prix">1600</div>
+            <div class="del">x</div>
+        </div>
+        <div class="cart">
+            <div class="imgBox">
+                <img src="img/fraise.png" height="80px">
+                <button id="like" class="btnlikee"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="fruits">
+                <h2 class="title">Fraise</h2>
+                <h3 class="PUnit">Prix unitaire : 2000</h3>
+            </div>
+            <div class="counter">
+                <div class="btnminus">-</div>
+                <input type="text" name="qty" id="3" value="1">
+                <div class="btnplus">+</div>
+            </div>
+            <div class="prix">2000</div>
+            <div class="del">x</div>
+        </div>
+        <div class="cart">
+            <div class="imgBox">
+                <img src="img/banane.jpg" width="80px" height="80px">
+                <button id="like" class="btnlikee"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="fruits">
+                <h2 class="title">Banane</h2>
+                <h3 class="PUnit">Prix unitaire : 1200</h3>
+            </div>
+            <div class="counter">
+                <div class="btnminus">-</div>
+                <input type="text" name="qty" id="4" value="2">
+                <div class="btnplus">+</div>
+            </div>
+            <div class="prix">2400</div>
+            <div class="del">x</div>
+        </div>
+        <div class="cart">
+            <div class="imgBox">
+                <img src="img/orange.png" height="80px">
+                <button id="like" class="btnlikee"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="fruits">
+                <h2 class="title">Orange</h2>
+                <h3 class="PUnit">Prix unitaire : 500</h3>
+            </div>
+            <div class="counter">
+                <div class="btnminus">-</div>
+                <input type="text" name="qty" id="5" value="4">
+                <div class="btnplus">+</div>
+            </div>
+            <div class="prix">2000</div>
+            <div class="del">x</div>
+        </div>
+        <div class="totalCart">
+            <h2 style="color: #2ca618;letter-spacing: 5px;">Votre Commande</h2>
+            <h3 class="price">Montant à payer : 11 000 F CFA</h3>
+            <button onclick="cmdOk()" class="paiement">Commander maintenant</button>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
